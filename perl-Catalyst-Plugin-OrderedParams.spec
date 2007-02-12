@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-OrderedParams
 Summary:	Catalyst::Plugin::OrderedParams - Maintain order of submitted form parameters
-Summary(pl):	Catalyst::Plugin::OrderedParams - zarz±dzenie kolejno¶ci± parametrów formularzy
+Summary(pl.UTF-8):   Catalyst::Plugin::OrderedParams - zarzÄ…dzenie kolejnoÅ›ciÄ… parametrÃ³w formularzy
 Name:		perl-Catalyst-Plugin-OrderedParams
 Version:	0.05
 Release:	1
@@ -32,13 +32,13 @@ simple hash, which loses the original order in which the parameters
 were submitted. This plugin stores parameters in a Tie::IxHash which
 will retain the original submitted order.
 
-%description -l pl
-Ta wtyczka pozwala obs³ugiwaæ parametry GET i POST w sposób
-uporz±dkowany. Domy¶lnie w Cataly¶cie parametry formularzy s±
-przechowywane w prostym haszu, który traci oryginaln± kolejno¶æ, w
-jakiej parametry zosta³y przekazane. Ta wtyczka przechowuje parametry
-w strukturze Tie::IxHash, która zachowuje oryginaln± kolejno¶æ
-przekazanych parametrów.
+%description -l pl.UTF-8
+Ta wtyczka pozwala obsÅ‚ugiwaÄ‡ parametry GET i POST w sposÃ³b
+uporzÄ…dkowany. DomyÅ›lnie w CatalyÅ›cie parametry formularzy sÄ…
+przechowywane w prostym haszu, ktÃ³ry traci oryginalnÄ… kolejnoÅ›Ä‡, w
+jakiej parametry zostaÅ‚y przekazane. Ta wtyczka przechowuje parametry
+w strukturze Tie::IxHash, ktÃ³ra zachowuje oryginalnÄ… kolejnoÅ›Ä‡
+przekazanych parametrÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
