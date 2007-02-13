@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-OrderedParams
 Summary:	Catalyst::Plugin::OrderedParams - Maintain order of submitted form parameters
-Summary(pl.UTF-8):   Catalyst::Plugin::OrderedParams - zarządzenie kolejnością parametrów formularzy
+Summary(pl.UTF-8):	Catalyst::Plugin::OrderedParams - zarządzenie kolejnością parametrów formularzy
 Name:		perl-Catalyst-Plugin-OrderedParams
 Version:	0.05
 Release:	1
